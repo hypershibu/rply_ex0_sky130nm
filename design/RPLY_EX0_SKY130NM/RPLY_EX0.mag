@@ -1,0 +1,84 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1674166434
+<< locali >>
+rect 360 460 460 880
+rect 740 460 840 880
+rect 1060 460 1160 880
+rect 1440 460 1540 880
+rect 1760 460 1860 880
+rect 2140 460 2240 880
+rect 2460 460 2560 880
+rect 2840 460 2940 880
+rect 3160 460 3260 880
+rect 3540 460 3640 880
+rect 3860 460 3960 880
+rect 4240 460 4340 880
+rect 360 100 840 140
+rect 1060 100 1540 140
+rect 1760 100 2240 140
+rect 2460 100 2940 140
+rect 3160 100 3640 140
+rect 3860 100 4340 140
+rect 300 0 4400 100
+<< metal1 >>
+rect 490 1060 4210 1120
+rect 1960 1020 2020 1060
+rect 1270 720 1330 726
+rect 554 660 560 720
+rect 620 660 626 720
+rect 1270 654 1330 660
+rect 2670 720 2730 726
+rect 2670 654 2730 660
+rect 3370 720 3430 726
+rect 3370 654 3430 660
+rect 4070 720 4130 726
+rect 4070 654 4130 660
+rect 490 220 4210 280
+<< via1 >>
+rect 560 660 620 720
+rect 1270 660 1330 720
+rect 2670 660 2730 720
+rect 3370 660 3430 720
+rect 4070 660 4130 720
+<< metal2 >>
+rect 560 720 620 726
+rect 620 660 1270 720
+rect 1330 660 2670 720
+rect 2730 660 3370 720
+rect 3430 660 4070 720
+rect 4130 660 4136 720
+rect 560 654 620 660
+use sky130_fd_pr__nfet_01v8_5CE34N  sky130_fd_pr__nfet_01v8_5CE34N_0
+timestamp 1673742880
+transform 1 0 597 0 1 670
+box -297 -570 297 570
+use sky130_fd_pr__nfet_01v8_5CE34N  sky130_fd_pr__nfet_01v8_5CE34N_1
+timestamp 1673742880
+transform 1 0 1297 0 1 670
+box -297 -570 297 570
+use sky130_fd_pr__nfet_01v8_5CE34N  sky130_fd_pr__nfet_01v8_5CE34N_2
+timestamp 1673742880
+transform 1 0 1997 0 1 670
+box -297 -570 297 570
+use sky130_fd_pr__nfet_01v8_5CE34N  sky130_fd_pr__nfet_01v8_5CE34N_3
+timestamp 1673742880
+transform 1 0 2697 0 1 670
+box -297 -570 297 570
+use sky130_fd_pr__nfet_01v8_5CE34N  sky130_fd_pr__nfet_01v8_5CE34N_4
+timestamp 1673742880
+transform 1 0 3397 0 1 670
+box -297 -570 297 570
+use sky130_fd_pr__nfet_01v8_5CE34N  sky130_fd_pr__nfet_01v8_5CE34N_5
+timestamp 1673742880
+transform 1 0 4097 0 1 670
+box -297 -570 297 570
+<< labels >>
+flabel locali 2276 4 2380 94 0 FreeSans 160 0 0 0 VSS
+port 1 nsew
+flabel metal1 2300 1060 2380 1120 0 FreeSans 160 0 0 0 IBPS_4U
+port 2 nsew
+flabel metal2 2318 658 2388 714 0 FreeSans 160 0 0 0 IBNS_20U
+port 3 nsew
+<< end >>
